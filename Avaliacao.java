@@ -15,6 +15,7 @@ public class Avaliacao {
     DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     public Avaliacao() {
+        System.out.println("Sistema de Avaliação: \nDurante o ano, você será avaliado em três trimestres, recebendo uma nota de 0 a 10 em cada um. \nAo final, será somado as três notas e divida o resultado por 3 para calcular a nota final.");
         setNotas();
         setDatas(datas);
     }
